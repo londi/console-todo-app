@@ -16,7 +16,7 @@ jobs:
       - name: Install CMake
         uses: lukka/get-cmake@latest
         with:
-          cmakeVersion: 3.28.1
+          cmakeVersion: 3.29.0
 
       - name: Configure CMake
         run: |
